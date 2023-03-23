@@ -9495,7 +9495,7 @@ header-style-seven .nav-toggler:hover {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: url(/www.swifttools.in/images/Header-background.jpg);
+	background-image: url(../images/Header-background.jpg);
 	/*background:#000000;*/
 	content: "";
 	opacity: 0.90;
