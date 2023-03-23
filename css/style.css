@@ -545,7 +545,7 @@ img {
 	top: 0;
 	width: 100%;
 	z-index: 9999;
-	background-image: url('/www.swifttools.in/images/Header-background.jpg'); 
+	background-image: url('../images/Header-background.jpg');  
 
 }
 
@@ -2331,7 +2331,7 @@ header-style-seven .nav-toggler:hover {
 	width: 100%;
 	padding: 0px 0px;
 	z-index: -1;
-	background-image: url('/www.swifttools.in/images/Sticky-header-background.jpg');
+	background-image: url('../images/Sticky-header-background.jpg'); 
 	/* background-image: url('/www.swifttools.in/images/Header-background.jpg'); */
 	-webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.10);
 	-moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.10);
