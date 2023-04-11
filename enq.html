@@ -37,8 +37,8 @@
     <meta property="og:url" content="https://www.swifttools.in">
     <meta property="og:image" content="https://www.swifttools.in/images/logo.jpg">
     <meta property="business:contact_data:street_address"
-        content="K 10/2 Industrial area walhuj, MIDC Area, Waluj MIDC, ">
-    <meta property="business:contact_data:locality" content="Aurangabad">
+        content="K 10/2 Industrial area walhuj, MIDC Area, ">
+    <meta property="business:contact_data:locality" content="Chatrapati Sambhajinagar">
     <meta property="business:contact_data:region" content="Maharashtra">
     <meta property="business:contact_data:postal_code" content="431136">
     <meta property="business:contact_data:country_name" content="India">
@@ -51,7 +51,7 @@
     <title>Gear Hobs, Milling Cutters, Services</title>
     <meta name="robots" content="index, follow" />
     <meta name="revisit-after" content="7 days" />
-    <meta name="description" content="Gear Hobs, Milling Cutters, Services from Aurangabad, Maharashtra, India" />
+    <meta name="description" content="Gear Hobs, Milling Cutters, Services from Chatrapati Sambhajinagar, Maharashtra, India" />
     <meta name="author" content="Designed and Promoted by Swift Tools & Machines" />
     <meta name="keywords"
         content="Gear Hobs, Milling Cutters,Spur /helical gears,Worm gears,Sprockets,Splines,Serrations,Timing pulleys,Ratchets,Band saws,Thread Milling cutters,Rack Cutters,Hurth Spline Cutters,Profile Cutters,Serration Cutters,Groove Cutters,Slot Cutters,Shaper Cutters,Form Relived Tools,Templates,Gear deburring discs,Thread Whirling Tools,Pipe Piercing Punches,Resharpening, Gear hobbing" />
@@ -380,14 +380,28 @@
                     var email = document.getElementById('email').value;
                     var address = document.getElementById('address').value;
                     var requirement = document.getElementById('req_details').value;
-                    var body = 'Name of Company : ' + name + '<br/> Name of Contact Person: ' + contact + '<br/> Tel. No. / Cell No. : ' + phone + '<br/> Email: ' + email + '<br/> Address : ' + address + '<br/> Requirement Details: ' + requirement;
+                    var body = 'Hello Sir/Madam,' +
+                    ' <br/> A request for quote has been arrived. Please find the following details:'+
+                    
+                    '<br/><br/> Name of Company : ' + name + 
+                    '<br/> Name of Contact Person: ' + contact + 
+                    '<br/> Tel. No. / Cell No. : ' + phone + 
+                    '<br/> Email: ' + email + 
+                    '<br/> Address : ' + address + 
+                    '<br/> Requirement Details: ' + requirement+
+                    '<br/> <br/>I hope to have early response from you.'+
+                    '<br/> If you have any question, please feel free to contact me directly. Looking forward to your reply.'+
+                    '<br/> <br/>Yours Sincerely,'+
+                    '<br/>' +contact+
+                    '<br/>' +phone;
+
                     console.log('hi');
 
                     Email.send({
                         SecureToken: "3e2ad858-13fa-4962-9743-221ef0f0f821",
                         To: 'rutujasbiradar9@gmail.com',
                         From: "rutujapatil9592@gmail.com",
-                        Subject: "contact info",
+                        Subject: "Requested Quotation",
                         Body: body
                     }).then(
                         message => alert("Thank You! Your information sent successfully.")
@@ -420,12 +434,12 @@
                                                 <ul class="footer-info">
                                                     <div class="widget-title">About Us</div>
 
-                                                    <p align="justify">Swift Tools & Machines which is establish in
+                                                    <p align="justify">Swift Tools & Machines which is established in
                                                         the year 2005 under ownership of <strong>Mr. Ankush
                                                             Lamture.</strong> A team leader and a technocrat with a
                                                         proven track record and successfully managing the company for
-                                                        last few years. He is having 10+ years experience in design,
-                                                        manufacturing and Applications of the high performance cutting
+                                                        last 17 years. He is having 30+ years experience in design,
+                                                        manufacturing and applications of the high performance cutting
                                                         tools... </p>
                                                         <p><a href="about-swift-tools.html">Read More..</a></p>
 
